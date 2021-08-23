@@ -14,7 +14,7 @@ class Calculator:
 
         :return: Number
         """
-        if self.a.isdigit() and self.b.isdigit():
+        if str(self.a).isdigit() and str(self.b).isdigit():
             return self.a + self.b
         else:
             return False
@@ -25,7 +25,7 @@ class Calculator:
 
         :return: Number 或 False
         """
-        if not (self.a.isdigit() and self.b.isdigit()):
+        if not (str(self.a).isdigit() and str(self.b).isdigit()):
             return False
         elif self.b == 0:
             return False
