@@ -2,3 +2,4 @@
 /pytestdemo/cases/output/capture/*.png
 /pytestdemo/cases/result/*
 /pytestdemo/cases/output/*.log
+/podemo/conf/cookies.yaml
